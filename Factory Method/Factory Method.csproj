@@ -41,6 +41,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Implementations\CreditCardPayment.cs" />
+        <Compile Include="Implementations\GooglePayPayment.cs" />
         <Compile Include="IPayment.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
