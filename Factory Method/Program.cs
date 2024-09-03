@@ -9,7 +9,8 @@ namespace Factory_Method
     {
         public static void Main(string[] args)
         {
-            IPayment payment = new PaymentFactory().Create(PaymentMethod.CreditCard);
+            PaymentFactory factory = new PaymentFactory();
+            IPayment payment = factory.Create(PaymentMethod.GooglePay);
             payment.Pay(1000.00);
         }
     }

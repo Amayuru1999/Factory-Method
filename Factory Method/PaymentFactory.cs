@@ -6,7 +6,7 @@ namespace Factory_Method
 {
     public class PaymentFactory
     {
-        public static IPayment Create(PaymentMethod paymentMethod)
+        public IPayment Create(PaymentMethod paymentMethod)
         {
             switch (paymentMethod)
             {
