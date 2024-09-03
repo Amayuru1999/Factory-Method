@@ -45,6 +45,7 @@
         <Compile Include="Implementations\GooglePayPayment.cs" />
         <Compile Include="Implementations\PayPalPayment.cs" />
         <Compile Include="IPayment.cs" />
+        <Compile Include="PaymentFactory.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
